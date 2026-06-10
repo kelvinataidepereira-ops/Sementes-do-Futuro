@@ -21,6 +21,7 @@
 
         /* Cabeçalho */
         header {
+    
             background-color: #1b4332;
             color: white;
             padding: 1rem 2rem;
@@ -51,7 +52,7 @@
         }
 
         /* Banner */
-        .banner {
+    python loja_fazenda.py    .banner {
             background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1592417817098-8f3d6eb18865?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80') center/cover;
             height: 300px;
             display: flex;
