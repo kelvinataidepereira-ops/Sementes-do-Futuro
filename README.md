@@ -268,7 +268,7 @@ def main():
                 else:
                     print("\n❌ Produto inválido.")
             except ValueError:
-                print("\n❌ Por favor, digite um número válido.")
+                print("\n30.")
 
         elif opcao == "2":
             print("\n--- SEU CARRINHO ---")
@@ -300,3 +300,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+python loja_fazenda.py
