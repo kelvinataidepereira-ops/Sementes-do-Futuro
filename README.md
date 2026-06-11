@@ -55,111 +55,8 @@
 
     <script src="script.js"></script>
 </body>
-</html>v/* Configurações Gerais */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f6f4;
-    color: #333;
-}
-
-/* Cabeçalho */
-header {
-    background-color: #2e6f40; /* Verde Agro */
-    color: white;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.carrinho {
-    background-color: #1e4629;
-    padding: 10px 15px;
-    border-radius: 20px;
-    font-weight: bold;
-}
-
-/* Banner */
-.banner {
-    background-color: #8d6e63; /* Tom de terra */
-    color: white;
-    text-align: center;
-    padding: 40px 20px;
-}
-
-.banner h2 {
-    margin: 0 0 10px 0;
-}
-
-/* Vitrine de Produtos */
-.vitrine {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
-    padding: 40px 20px;
-}
-
-/* Card do Produto */
-.produto-card {
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-    width: 280px;
-    padding: 20px;
-    text-align: center;
-    transition: transform 0.2s;
-}
-
-.produto-card:hover {
-    transform: translateY(-5px);
-}
-
-.produto-img {
-    font-size: 50px;
-    margin-bottom: 15px;
-}
-
-.produto-card h3 {
-    margin: 10px 0;
-    color: #2e6f40;
-}
-
-.descricao {
-    font-size: 14px;
-    color: #666;
-    height: 40px;
-}
-
-.preco {
-    font-size: 18px;
-    font-weight: bold;
-    color: #2e6f40;
-    margin: 15px 0;
-}
-
-/* Botão de Compra */
-.btn-comprar {
-    background-color: #ff9800; /* Laranja para destaque */
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-    width: 100%;
-    transition: background 0.2s;
-}
-
-.btn-comprar:hover {/* Configurações Gerais */
+</html>
+/* Configurações Gerais */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -275,20 +172,7 @@ footer {
     padding: 15px;
     font-size: 14px;
     margin-top: 20px;
-}
-    background-color: #e68a00;
-}
-
-/* Rodapé */
-footer {
-    background-color: #222;
-    color: #aaa;
-    text-align: center;
-    padding: 15px;
-    font-size: 14px;
-    margin-top: 20px;
-}
-// Cria uma variável para guardar a quantidade de itens no carrinho
+}// Cria uma variável para guardar a quantidade de itens no carrinho
 let totalItensCarrinho = 0;
 
 // Seleciona o elemento de texto do carrinho pelo ID
